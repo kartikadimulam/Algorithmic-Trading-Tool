@@ -24,3 +24,22 @@ p = figure(x_axis_type= "datetime", tools = TOOLS,
 
 from math import pi
 
+p.xaxis.major_label_orientation = pi/4
+p.grid.grid_line_alpha = 0.3
+#darkness of grid lines transparent 0 opaque 1
+
+p.segment(df.index, df.High, df.index, df.Low, color="red")
+#draws a vertical line segment from the high to low value, at the particular index
+
+p.vbar(df.index[inc], w, df.Open[inc], df.Close[inc], fill_color='#1ED837', line_color='black')
+#for increases, creates green vertical bars between open and close, w is the width,
+#which should correspond to the length of each datapoint on the axis, which are in milliseconds
+
+p.vbar(df.index[dec], w, df.Open[dec], df.Close[dec], fill_color='#F2583E', line_color='black')
+#for decreases, creates red vertical bars
+
+output_file('candlestick.html', title='candlesticks.py')
+#shows graph in browser
+
+show(p)
+
