@@ -12,7 +12,6 @@ implied_volatility = (strikeprice-100)**2 / (100*strikeprice)/time
 import matplotlib.pyplot as plt
 
 from mpl_toolkits.mplot3d import Axes3D
-#3d plotting tool
 
 fig = plt.figure(figsize = (10,7))
 axis = fig.add_subplot(111, projection = '3d')
