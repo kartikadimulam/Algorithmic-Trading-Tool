@@ -5,10 +5,8 @@ strikeprice = np.linspace(50,150, 25)
 time = np.linspace(0.5,2,25)
 
 strikeprice, time=np.meshgrid(strikeprice, time)
-#cartesian product of strikeprice and time, stored in 2 variables
 strikeprice_time = np.meshgrid(strikeprice,time)
-#can't do it like this because the sequences don't combine into a cartesian
-#product
+
 
 implied_volatility = (strikeprice-100)**2 / (100*strikeprice)/time
 
