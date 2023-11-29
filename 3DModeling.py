@@ -1,7 +1,6 @@
 import numpy as np
 
 strikeprice = np.linspace(50,150, 25)
-#25 evenly spaced values from 50 to 150
 time = np.linspace(0.5,2,25)
 
 strikeprice, time=np.meshgrid(strikeprice, time)
