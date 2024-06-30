@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-path = '/Users/kartikadi/downloads/PFT_Files/data_modules/jpm_and_bac_price.csv'
+path = './data/jpm_and_bac_price.csv'
 df1 = pd.read_csv(path,index_col=0)
 df1.index = pd.to_datetime(df1.index)
 

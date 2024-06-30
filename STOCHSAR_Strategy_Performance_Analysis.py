@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 plt.style.use('seaborn-v0_8-notebook')
 
-path = '/Users/kartika/downloads/PythonForTrading/daily_apple_data.csv'
+path = './data/daily_apple_data.csv'
 
 stock_data = pd.read_csv(path, index_col = 0)
 stock_data.index = pd.to_datetime(stock_data.index)
@@ -39,7 +39,7 @@ stock_data['strategy_returns'] = (stock_data['stock_returns']*stock_data['signal
 
 stock_data = stock_data.dropna()
 
-path = '/Users/kartika/downloads/PythonForTrading/1m_apple_data.csv'
+path = './data/1m_apple_data.csv'
 stock_data_1m = pd.read_csv(path, index_col=0)
 stock_data_1m.index = pd.to_datetime(stock_data_1m.index)
 stock_data_1m.reset_index(inplace=True)
