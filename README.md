@@ -36,11 +36,15 @@ Maximum drawdown of Long Only Strategy is -30.46%
 | Maximum Drawdown |                -40.8694   |            -30.4631  |
 
 ```
+![Long-Short Visualization](Long-Short.png)
+
 To create a candlestick model:
 
 ```bash
 python3 Candlesticks_Modeling.py
 ```
+
+
 
 
 
