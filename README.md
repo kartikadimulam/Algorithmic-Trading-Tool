@@ -13,7 +13,7 @@ cd Algorithmic-Trading-Tool
 To run backtested trading strategy:
 
 ```bash
-python3 Backtesting_Stochastic_SAR_Strategy.py
+python3 AAPL_STOCHF_Backtest.py
 ```
 
 You should see an output like: 
