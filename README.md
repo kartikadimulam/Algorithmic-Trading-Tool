@@ -10,13 +10,13 @@ Download project to local:
 git clone https://github.com/kartikadimulam/Algorithmic-Trading-Tool.git
 cd Algorithmic-Trading-Tool
 ```
-To run backtested trading strategy:
+To run a backtested trading strategy:
 
 ```bash
 python3 AAPL_STOCHF_Backtest.py
 ```
 
-You should see an output like: 
+You should see an output like this: 
 
 ```bash
 Estimated slippage: 0.0022
@@ -41,7 +41,7 @@ Maximum drawdown of Long Only Strategy is -30.46%
 To create a candlestick model:
 
 ```bash
-python3 Candlesticks_Modeling.py
+python3 TSLA_Candlestick.py
 ```
 
 
