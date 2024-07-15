@@ -44,6 +44,11 @@ To create a candlestick model:
 python3 TSLA_Candlestick.py
 ```
 
+This  should generate a candlestick model looking like:
+
+![Candlestick Model](TSLA-Candlestick.png)
+
+
 
 
 
