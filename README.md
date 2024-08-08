@@ -10,7 +10,7 @@ Download project to local:
 git clone https://github.com/kartikadimulam/Algorithmic-Trading-Tool.git
 cd Algorithmic-Trading-Tool
 ```
-To run a backtested trading strategy which uses Stochastic Oscillators and RSI:
+To run a backtested trading strategy that uses Stochastic Oscillators and RSI:
 
 ```bash
 python3 AAPL_STOCHF_Backtest.py
@@ -44,7 +44,7 @@ To create a candlestick model:
 python3 TSLA_Candlestick.py
 ```
 
-This  should generate a candlestick model looking like:
+This  should generate a candlestick model looking like this:
 
 ![Candlestick Model](TSLA_Candlestick.png)
 
