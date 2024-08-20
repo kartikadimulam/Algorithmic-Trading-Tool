@@ -72,6 +72,15 @@ It should produce an output like this:
 
 ![rsi_nvda](rsi_visual_nvda.png)
 
+To run a trading strategy that uses Bollinger Bands to generate trading signals for MSFT:
+
+```bash
+python3 BBANDS_MSFT.py
+```
+
+You should see a visual output specifying # of trades:
+
+![bbandsmsft](bbands_visual_msft.png)
 
 
 
