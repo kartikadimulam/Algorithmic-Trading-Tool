@@ -10,7 +10,7 @@ Download project to local:
 git clone https://github.com/kartikadimulam/Algorithmic-Trading-Tool.git
 cd Algorithmic-Trading-Tool
 ```
-To run a backtested trading strategy that uses Stochastic Oscillators and RSI:
+To run a backtested trading strategy for AAPL that uses Stochastic Oscillators and RSI:
 
 ```bash
 python3 AAPL_STOCHF_Backtest.py
@@ -38,17 +38,17 @@ Maximum drawdown of Long Only Strategy is -30.46%
 ```
 ![Long-Short Visualization](Long-Short.png)
 
-To create a candlestick model:
+To create a candlestick model for TSLA stock:
 
 ```bash
 python3 TSLA_Candlestick.py
 ```
 
-This  should generate a candlestick model looking like this:
+This should generate a candlestick model looking like this:
 
 ![Candlestick Model](TSLA_Candlestick.png)
 
-To run a trend-based trading strategy that uses EMA, Stochastic Oscillators, and Parabolic SAR:
+To run a trend-based trading strategy for TSLA stock that uses EMA, Stochastic Oscillators, and Parabolic SAR:
 
 ```bash
 python3 TBASED_TSLA.py
@@ -63,6 +63,14 @@ Sharpe Ratio: 0.94
 ![Returns](returns_tbased_tsla.png)
 ![Drawdown](ddown_tbased_tsla.png)
 
+To visualize a Relative Strength Index trading strategy and its trading signals for NVDA:
+
+```bash
+python3 RSI_NVDA.py
+```
+It should produce an output like this:
+
+![rsi_nvda](rsi_visual_nvda.png)
 
 
 
