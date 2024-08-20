@@ -72,6 +72,15 @@ It should produce an output like this:
 
 ![rsi_nvda](rsi_visual_nvda.png)
 
+To run a volume reversal trading strategy for AAPL stock data:
+
+```bash
+python3 VReversal_AAPl.py
+```
+
+You should see a returns output like this:
+![vreversal-aapl](vreversal_visual_aapl.png)
+
 To run a trading strategy that uses Bollinger Bands to generate trading signals for MSFT:
 
 ```bash
