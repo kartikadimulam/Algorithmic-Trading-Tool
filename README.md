@@ -51,7 +51,7 @@ This  should generate a candlestick model looking like this:
 To run a trend-based trading strategy that uses EMA, Stochastic Oscillators, and Parabolic SAR:
 
 ```bash
-python3 TBased_MSFT.py
+python3 TBASED_TSLA.py
 ```
 
 You should see an output like this:
