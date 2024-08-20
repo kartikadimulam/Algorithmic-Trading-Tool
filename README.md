@@ -70,7 +70,7 @@ python3 RSI_NVDA.py
 ```
 It should produce an output like this:
 
-![rsi_nvda](RSI_visual_nvda)
+![rsi_nvda](RSI_visual_nvda.png)
 
 To run a volume reversal trading strategy for AAPL stock data:
 
