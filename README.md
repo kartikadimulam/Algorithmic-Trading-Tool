@@ -78,7 +78,7 @@ To run a volume reversal trading strategy for AAPL stock data:
 python3 VReversal_AAPl.py
 ```
 
-You should see a returns output like this:
+You should see a returns output like this where the green line is our strategy performance:
 ![vreversal-aapl](vreversal_visual_aapl.png)
 
 To run a trading strategy that uses Bollinger Bands to generate trading signals for MSFT:
