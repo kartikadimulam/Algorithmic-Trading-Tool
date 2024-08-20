@@ -60,6 +60,7 @@ You should see an output like this:
 Maximum drawdown of the strategy equals -22.64%
 Sharpe Ratio: 0.94
 ```
+![Returns](returns_tbased_tsla.png)
 ![Drawdown](ddown_tbased_tsla.png)
 
 
