@@ -48,7 +48,19 @@ This  should generate a candlestick model looking like this:
 
 ![Candlestick Model](TSLA_Candlestick.png)
 
+To run a trend-based trading strategy that uses EMA, Stochastic Oscillators, and Parabolic SAR:
 
+```bash
+python3 TBased_MSFT.py
+```
+
+You should see an output like this:
+
+```bash
+Maximum drawdown of the strategy equals -22.64%
+Sharpe Ratio: 0.94
+```
+![Drawdown](ddown_tbased_tsla.png)
 
 
 
